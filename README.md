@@ -57,5 +57,7 @@ crontab -e
 ```
 # kill zombies
 * * * * * kill -9 `ps -xaw -o state -o ppid | grep Z | grep -v PID | awk '{print $2}'`
+ 
 
+THIS IS AN AMAZING COMMUNITY 
 ```
